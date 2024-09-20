@@ -7,13 +7,12 @@ variable "csp" {
 variable "service" {
   description = "The name of the provissioned service"
   type        = string
-  default = "rg"
+  default     = "rg"
 }
 
 variable "company" {
   description = "The company that own the service"
   type        = string
-  default = "ct"
 }
 
 variable "project" {
