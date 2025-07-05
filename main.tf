@@ -9,7 +9,7 @@ terraform {
 }
 
 locals {
-  name = "${var.csp}-${var.service}-${var.company}-${var.project}-${var.environment}-${var.running_number}"
+  name = "${var.csp}${var.service}${var.company}${var.project}${var.environment}${var.running_number}"
 }
 
 resource "azurerm_resource_group" "rg" {
